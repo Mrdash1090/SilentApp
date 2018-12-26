@@ -2,14 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#9400d3">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/phoneIcon"
-        android:layout_gravity="center"
+        android:layout_gravity="center_horizontal"
         android:src="@drawable/normal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/toggleButton"
+        android:text="Toggle Silent Mode"
+        android:background="#FFD700"
+        android:textStyle="bold"/>
 
 
 </LinearLayout>
