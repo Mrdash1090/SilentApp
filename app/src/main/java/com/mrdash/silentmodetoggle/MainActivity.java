@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         toggleButton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
-                public void onClick(view v)
+
 
                 if(mPhoneIsSilent)
                 {
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
          }
     }
 
-    private toggleUi(){
+    private void toggleUi(){
         ImageView imageView = (ImageView)findViewById(R.id.normal);
         Drawable newPhoneImage;
         if(mPhoneIsSilent){
